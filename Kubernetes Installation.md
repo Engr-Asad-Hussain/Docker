@@ -28,6 +28,7 @@ sudo add-apt-repository multiverse && sudo apt-get update
 sudo apt install virtualbox
 ```
 The system will prompt you with a Y/n option in order to begin the installation procedure. Please enter Y and hit Enter to begin. VirtualBox will then be installed on your system.
+
 5. You can launch VirtualBox directly through the Terminal by entering the following command:
 ```
 virtualbox
@@ -49,6 +50,7 @@ minikube version
 kubectl version
 ```
 8. Now run the command to start minikube:
+```
 minikube start
 ```
 Once when you typed the ```minikube start``` command and it shows an type of error. Then first delete the minikube using ```minikube delete``` and then start again.
